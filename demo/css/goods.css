@@ -1,0 +1,120 @@
+.q1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 5px 5px 5px 5px;
+}
+.goods{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    font-family: 华文楷体;
+    overflow: hidden;
+}
+.fang{
+    float: left;
+    width: 400px;
+}
+.shang{
+    background-color: rgb(225,225,225);
+    float: left;
+    width: 500px;
+    height: 400px;
+}
+.shang h3{
+    background-color: rgb(235,235,235) ;
+}
+.shang p{
+    font-size: 1.8rem;
+    margin-top: 30px;
+}
+.shang p span>a{
+    border: 1.5px solid gray;
+    border-color: gray;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+}
+.shang p span>a:hover{
+    border: 1.5px solid rgb(254,67,101);
+}
+.q2 img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.q1 b{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: rgba(255,255,255,.4);
+    display: none;
+    top: 0;
+    left: 0;
+}
+.goods .lag{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+    background-color: red;
+    overflow: hidden;
+}
+.lag img{
+    position: absolute;
+}
+.shang button{
+    font-size: 2rem;
+    color: white;
+    outline: none;
+    border: none;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(242, 21, 76);
+    margin-right: 100px;
+    float: right;
+}
+.ping{
+    margin-top: 20px;
+    clear: both;
+}
+.ping .z1 a{
+    width: 120px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid gray;
+    font-size: 2rem;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(242,21,76);
+    text-decoration: none;
+}
+.z2,.z3{
+    background-color: rgb(235,235,235);
+}
+.z3{
+    margin-top: 20px;
+}
+.z2 img{
+   margin: 10px auto ;
+    display: block;
+}
+.z3 ul{
+   list-style: none;
+}
+.z3 ul li{
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid gray;
+}
+.z3 ul li span{
+    height: 20px;
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    color: red;
+}

@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.shop{
+	margin-top: 20px;
+}
+.shop button{
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+	float: right;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5%;
+}
+.shop h3{
+	clear: left;
+	text-indent: 2rem;
+	line-height: 50px;
+	font-family: "华文楷体";
+	background-color: rgb(245,245,245);
+}
+.d1{
+	margin-left: 60px;
+}
+.d2{
+	margin-left: 75px;
+	color: red;
+}
+.d1 span{
+	display: inline-block;
+	width: 180px;
+	text-align: center;
+}
+.d2 span{
+	display: inline-block;
+	width: 170px;
+	text-align: center;
+}
+ul{
+	list-style: none;
+
+}
+li{
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+.d3{
+	color: red;
+	margin-left: 40px;
+}
+#show,#car{
+	background-color: rgb(235,235,235);
+	border:1px solid #000;
+	width: 1000px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+#show ul{
+	width: 1000px;
+	float: left;
+}
+#show ul li{
+	width: 180px;
+	text-align: center;
+}
+#show ul li.pname,#car ul li.pname{
+	width: 200px;
+}
+#car{
+	margin-bottom: 50px;
+}
+#car ul{
+	overflow: hidden;
+	width: 1000px;
+}
+#car ul input{
+	text-align: center;
+	width: 24px;
+}
+#car ul li{
+	width: 160px;
+	text-align: center;
+}
+#result{
+	overflow: hidden;
+	border-top: 1px solid #ddd;
+	margin-bottom: 0;
+}
+#result p{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+#message{
+	display: none;
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	padding: 10px 0;
+}

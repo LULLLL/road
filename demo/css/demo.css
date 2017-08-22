@@ -1,0 +1,310 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    font-size: 14px;
+    font-family: "宋体";
+    background: url("../img/timg.jpg");
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/*网页顶部样式*/
+.top{
+    background-color: rgb(242,242,242);
+    color: rgb(153,153,153);
+    font-size: 1rem;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+}
+.top-1 a{
+    color: rgb(153,153,153);
+}
+.top-1 a:hover{
+    color: rgb(221,39,39);
+}
+.top-1 span{
+    line-height: 30px;
+    margin-right: 15px;
+}
+/*logo、搜索区域*/
+.log{
+    margin-top: 20px;
+}
+.log img{
+    margin-left: -25px;
+    display: inline-block;
+}
+.log form{
+    display: inline-block;
+    position: relative;
+}
+.log>div{
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+.log div button{
+   margin-left: 10px;
+    position: absolute;
+}
+.log div>form>div{
+    width: 500px;
+    position: absolute;
+    top: 56px;
+}
+.log form input{
+    vertical-align:middle;
+    text-indent: 5px;
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border-radius: 5%;
+}
+.log form button{
+    border-radius: 5%;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+.log form div span {
+    display: inline-block;
+    /*width: 90px;*/
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+.log form div span a{
+    color: rgb(153,153,153);
+}
+.log form div span a:hover{
+    color: rgb(221,39,39);
+}
+/*分类区域*/
+.classify{
+    margin-top: 20px;
+    height: 35px;
+    background-color: rgb(221,39,39);
+}
+.classify img{
+    width: 35px;
+    position: absolute;
+    left: 80px;
+    top: -29px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 1s;
+}
+.classify span{
+    position: relative;
+}
+.classify span a{
+    margin-left: 70px;
+    line-height: 35px;
+    font-size: 2rem;
+    color: white;
+}
+.classify span a:hover +img{
+    opacity:1;
+    visibility: visible;
+}
+/*轮播区域*/
+.lunbo{
+    background: rgb(232,232,232);
+    position: relative;
+    height: 544px;
+}
+.lunbo img{
+    width: 1024px;
+    height: 544px;
+}
+
+.lun ul{
+    position: relative;
+    width: 200px;
+    z-index: 9999;
+}
+.lun ul li{
+    text-indent: 5px;
+    background: rgba(226,226,227,.5);
+    font-size: 1.6rem;
+    line-height: 32px;
+    width: 200px;
+    list-style: none;
+}
+.lun ul div{
+    background: white;
+    width: 900px;
+    height: 550px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+.lun ul li:hover{
+    overflow: hidden;
+    background: white;
+}
+.lun ul li:hover >div{
+    display: inline-block;
+}
+.im{
+}
+.im ul{
+    position: relative;
+}
+.im ul li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1100px;
+    height: 554px;
+}
+.im ul li img{
+    display: block;
+}
+/*分类区域*/
+.fenlei>div{
+    margin-top: 20px;
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    font-family: "华文楷体";
+    font-size: 5rem;
+    line-height: 150px;
+}
+.fenlei>div>div>a{
+    text-align: center;
+}
+.fenlei>.a1>.b1:hover>a{
+    animation:my1 2s;
+}
+.fenlei>.a1>.b2:hover>a{
+    animation:my2 2s;
+}
+.fenlei>.a1>.b3:hover>a{
+    animation:my3 2s;
+}
+.fenlei>.a1>.b4:hover>a{
+    animation:my4 2s;
+}
+@keyframes my1
+{
+    from {background:rgba(0,0,0,0); color: rgb(255,238,166);width: 30px;font-size: 1rem;}
+    to {background:rgb(255,238,166); color: white; width: 200px; font-size: 5rem;}
+}
+@keyframes my2
+{
+    from {background:rgba(0,0,0,0); color: rgb(255,99,14);width: 30px; font-size: 1rem;}
+    to {background:rgb(255,99,14); color: white; width: 300px; font-size: 5rem;}
+}
+@keyframes my3
+{
+    from {background:rgba(0,0,0,0); color: rgb(231,119,54);width: 30px; font-size: 1rem;}
+    to {background:rgb(231,119,54); color: white; width: 300px; font-size: 5rem;}
+}
+@keyframes my4
+{
+    from {background:rgba(0,0,0,0); color: rgb(251,98,45);width: 30px; font-size: 1rem;}
+    to {background:rgb(251,98,45); color: white; width: 200px; font-size: 5rem;}
+}
+.fenlei>div>div:hover{
+
+}
+.fenlei>.a1>div{
+    float: left;
+    display: inline-block;
+}
+.fenlei>.a1>.b1,.b4{
+    width: 200px;
+    height: 150px;
+}
+.fenlei>.a1>.b1>a,.b4>a{
+    display: inline-block;
+    width: 200px;
+    max-height: 150px;
+    color: white;
+}
+.fenlei>.a1>.b2,.b3{
+    width: 300px;
+    height: 150px;
+}
+.fenlei>.a1>.b2>a,.b3>a{
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    color: white;
+}
+.b1>a{
+    background-color: rgb(255,238,166);
+}
+.b2>a{
+    background-color: rgb(255,99,14);
+}
+.b3>a{
+    background-color: rgb(231,119,54);
+}
+.b4>a{
+    background-color: rgb(251,98,45);
+}
+.fenlei>.a2{
+    float: right;
+}
+/*列表区域*/
+.liebiao{
+    margin-top: 20px;
+    background: rgb(235,235,235);
+}
+.liebiao>div>a:hover{
+    position: relative;
+    top: -5px;
+    opacity: 0.8;
+}
+.liebiao>div>h3{
+    color: rgb(100,100,100);
+    font-family: "微软雅黑";
+}
+.liebiao>div>a{
+    margin: 10px;
+    display: inline-block;
+}
+.liebiao>div>a>div{
+    margin-top: 5px;
+    padding: 5px;
+    width: 199px;
+    background: white;
+}
+.liebiao>div>a>div p{
+    font-size: 1.5rem;
+    color: rgb(102,102,102);
+}
+.liebiao>div>a>div span{
+    display:block;
+    font-size: 1.5rem;
+    color: rgb(255,0,28);
+}
+.liebiao>div>a>div img{
+    width: 187px;
+    height: 190px;
+}
+/*底部样式*/
+.bottom{
+    border-top: 2px solid red;
+    background-color: black;
+}
+.bottom>.bottom-1 a{
+    color: white;
+}
+.bottom>.bottom-1 p{
+    color:  white;
+}
