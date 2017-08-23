@@ -13,6 +13,7 @@ function add(){
 	var oprice = document.querySelectorAll("#car .op");
 	var nprice = document.querySelectorAll("#car .np");
 	var score = document.querySelectorAll("#car .score");
+	//遍历计算列表 	
 	for(var i=0;i<score.length;i++){
 		allScore += score[i].innerHTML*int[i].value;
 		allnPrice += nprice[i].innerHTML*int[i].value;
